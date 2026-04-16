@@ -1,0 +1,135 @@
+version: "1.0"
+papers:
+  - id: "S-01"
+    title: "PRISMA 2020"
+    authors: ["Matthew J Page", "Joanne E McKenzie", "Patrick M Bossuyt"]
+    year: 2021
+    doi: "10.1136/bmj.n71"
+    url: "https://doi.org/10.1136/bmj.n71"
+    venue: "BMJ"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "S-02"
+    title: "PRISMA-trAIce"
+    authors: ["Holst D"]
+    year: 2025
+    doi: "10.2196/80247"
+    url: "https://doi.org/10.2196/80247"
+    venue: "JMIR AI"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "S-03"
+    title: "citecheck"
+    authors: ["Lee J"]
+    year: 2026
+    arxiv_id: "2603.17339"
+    url: "https://arxiv.org/abs/2603.17339"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "S-04"
+    title: "SemanticCite"
+    authors: ["Haan S"]
+    year: 2025
+    arxiv_id: "2511.16198"
+    url: "https://arxiv.org/abs/2511.16198"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "S-05"
+    title: "Citation Auditing"
+    authors: ["unknown"]
+    year: 2025
+    arxiv_id: "2511.04683"
+    url: "https://arxiv.org/abs/2511.04683"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "S-08"
+    title: "Research Debt"
+    authors: ["Chris Olah", "Shan Carter"]
+    year: 2017
+    doi: "10.23915/distill.00005"
+    url: "https://distill.pub/2017/research-debt/"
+    venue: "Distill"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "C-01"
+    title: "Why Most Clinical Research Is Not Useful"
+    authors: ["John P A Ioannidis"]
+    year: 2016
+    doi: "10.1111/1468-0009.12210"
+    url: "https://doi.org/10.1111/1468-0009.12210"
+    venue: "Milbank Quarterly"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "C-02"
+    title: "SLR problems"
+    authors: ["Uttley L"]
+    year: 2023
+    url: "https://pubmed.ncbi.nlm.nih.gov/"
+    venue: "Journal of Clinical Epidemiology"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "C-04"
+    title: "Automation Bias"
+    authors: ["Goddard K"]
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/"
+    venue: "JAMIA"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "C-05"
+    title: "Robotic Bureaucracy"
+    authors: ["Barry Bozeman", "Jan Youtie", "Jiwon Jung"]
+    year: 2020
+    doi: "10.1016/j.respol.2020.103980"
+    url: "https://doi.org/10.1016/j.respol.2020.103980"
+    venue: "Research Policy"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "C-06"
+    title: "Cognitive Debt"
+    authors: ["Storey", "Ernst"]
+    year: 2025
+    arxiv_id: "2603.22106"
+    url: "https://arxiv.org/abs/2603.22106"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "C-07"
+    title: "Research SW Tech Debt"
+    authors: ["Ernst NA"]
+    year: 2026
+    arxiv_id: "2603.20415"
+    url: "https://arxiv.org/abs/2603.20415"
+    status: unverified
+    must_read: false
+    category: misc
+
+  - id: "C-08"
+    title: "Snowballing 47 vs 38"
+    authors: ["Budgen"]
+    year: 2015
+    url: ""
+    status: unverified
+    must_read: false
+    category: misc

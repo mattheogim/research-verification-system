@@ -1,0 +1,43 @@
+id,catalog_title,catalog_first_author,has_arxiv,b1_id_exists,b2_metadata_match,b2_title_match,b2_author_match,b3_jaccard,rs_l1_verdict,rs_l1_error
+A1,Improving Factuality and Reasoning in Language Models through Multiagent Debate,Yilun Du,True,EXISTS,MATCH,True,True,1.0,EXACT,
+A2,Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate,Tian Liang,True,EXISTS,MATCH,True,True,1.0,EXACT,
+A3,Diversity of Thought Elicits Stronger Reasoning Capabilities in Multi-Agent Debate Frameworks,Mahmood Hegazy,True,EXISTS,MATCH,True,True,1.0,PARTIAL,venue_missing
+A4,Mixture-of-Agents Enhances Large Language Model Capabilities,Junlin Wang et al.,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+B1,Scaling Large Language Model-based Multi-Agent Collaboration,Chen Qian,True,EXISTS,MATCH,True,True,1.0,EXACT,
+B2,More Agents Is All You Need,Junyou Li,True,EXISTS,MATCH,True,True,1.0,PARTIAL,venue_missing
+C1,Exploring Advanced LLM Multi-Agent Systems Based on Blackboard Architecture,Bochen Han,True,EXISTS,MATCH,True,True,1.0,EXACT,
+C2,LLM-Based Multi-Agent Blackboard System for Information Discovery in Data Science,,True,EXISTS,MISMATCH,True,False,1.0,FAIL,author_wrong
+D1,MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework,Sirui Hong et al.,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+D2,ChatDev: Communicative Agents for Software Development,Chen Qian et al.,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+D3,AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors,Weize Chen et al.,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+E1,Large Language Models Miss the Multi-Agent Mark,Emanuele La Malfa et al.,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+E2,Towards a Science of Scaling Agent Systems,Yubin Kim,True,EXISTS,MATCH,True,True,1.0,EXACT,
+E3,Rethinking Mixture-of-Agents: Is Mixing Different Large Language Models Beneficial?,Wenzhe Li et al.,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+E4,Prompting Science Report 4: Playing Pretend: Expert Personas Don't Improve Factual Accuracy,Basil et al.,False,SKIP,SKIP,,,SKIP,EXACT,
+E5,Should we be going MAD? A Look at Multi-Agent Debate Strategies for LLMs,Smit et al.,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+E6,Talk Isn't Always Cheap: Understanding Failure Modes in Multi-Agent Debate,Wynn et al.,True,EXISTS,MISMATCH,True,False,1.0,PARTIAL,venue_inflated
+E7,Single-agent or Multi-agent Systems? Why Not Both?,Mingyan Gao,True,EXISTS,MATCH,True,True,1.0,FAIL,author_wrong
+E8,Why Do Multi-Agent LLM Systems Fail?,Cemri et al.,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+E9,From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration,,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+E10,AgentArk: Distilling Multi-Agent Intelligence into a Single LLM Agent,,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+F1,Towards Understanding Sycophancy in Language Models,Sharma et al.,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+G1,A Survey on LLM-as-a-Judge,,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+G2,Multi-Agent-as-Judge: Aligning LLM-Agent-Based Automated Evaluation,,True,EXISTS,MISMATCH,False,False,0.625,EXACT,
+H1,Lost in the Middle: How Language Models Use Long Contexts,Nelson F. Liu,True,EXISTS,MATCH,True,True,1.0,EXACT,
+H2,Hidden in the Haystack: Smaller Needles are More Difficult for LLMs to Find,,True,EXISTS,MISMATCH,True,False,1.0,PARTIAL,title_wrong
+I1,Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of LLMs,Tam et al.,True,EXISTS,MISMATCH,False,False,0.765,EXACT,
+J1,A General Model of Software Architecture Design Derived from Five Industrial Approaches,Hofmeister et al.,False,SKIP,SKIP,,,SKIP,EXACT,
+J2,AutoTRIZ: Automating Engineering Innovation with TRIZ and Large Language Models,,True,EXISTS,MISMATCH,True,False,1.0,PARTIAL,venue_missing
+J3,TRIZ Agents: A Multi-Agent LLM Approach for TRIZ-Based Innovation,,True,EXISTS,MISMATCH,True,False,1.0,PARTIAL,venue_missing
+J4,TRIZ for Software Architecture,Kluender,False,SKIP,SKIP,,,SKIP,,No
+J5,AI-driven FMEA: Integration of Large Language Models for Faster and More Accurate Risk Analysis,,False,SKIP,SKIP,,,SKIP,,No
+J6,One for All: A General Framework of LLMs-based Multi-Criteria Decision Making on Human Expert Level,,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+J7,Six Thinking Hats and Design Creativity,,False,SKIP,SKIP,,,SKIP,,No
+J8,LLM + DDD — Eric Evans experiment,Eric Evans,False,SKIP,SKIP,,,SKIP,,No
+J9,Human analogical guidance amplifies LLM performance through cross-domain knowledge activation,,False,SKIP,SKIP,,,SKIP,EXACT,
+K1a,Benchmarking LLMs' Swarm intelligence,,True,EXISTS,MISMATCH,True,False,1.0,PARTIAL,title_informal
+K1b,MAS Swarm Intelligence,,True,EXISTS,MISMATCH,False,False,0.167,EXACT,
+K3,LLM-Based MAS for Software Engineering Survey,,False,SKIP,SKIP,,,SKIP,N/A,
+K4,An LLM-assisted approach to designing software architectures using ADD,,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+K5,CodeAgents: A Token-Efficient Framework for Codified Multi-Agent Reasoning in LLMs,,True,EXISTS,MISMATCH,True,False,1.0,EXACT,
+K6,Rethinking Bounds of LLM Reasoning,,False,SKIP,SKIP,,,SKIP,EXACT,
