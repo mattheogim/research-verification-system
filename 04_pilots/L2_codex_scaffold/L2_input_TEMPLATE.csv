@@ -1,0 +1,3 @@
+ID,Paper_Title,ArXiv_URL,Claim_Text,Claim_Type,Citing_Location
+EVAL-01,"[논문 제목]","https://arxiv.org/abs/[arxiv_id]","[인용 문서에서 발췌한 claim 원문]","[factual_number|empirical_finding|design_recommendation|operational_norm|conceptual_framework|system_comparison]","[citing doc file:line]"
+EVAL-02,"[논문 제목]","https://arxiv.org/abs/[arxiv_id]","[claim 원문]","[claim type]","[citing location]"
