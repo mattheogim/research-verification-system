@@ -1,7 +1,9 @@
 # Pilot 2 Plan — Level 2 Source Reading
 
 _Created: 2026-04-15_
-_Status: PLANNED (not yet executed)_
+_Status: COMPLETED (executed in 2 sessions + supplement)_
+_Results: pilot_L2_report.md (5 papers) + pilot_L2_supplement.md (3 additional + quality check)_
+_Total: 8 papers, 9 claim-source pairs. 2 SUPPORT, 7 PARTIAL, 0 REFUTE._
 _Predecessor: Pilot 1 (Level 1, 16 sources) — see `pilot_claude_v0.4.1_report.md`_
 
 ---
