@@ -1,0 +1,27 @@
+Dataset,ID,Authors_Catalog,Title_Catalog,Venue_Catalog,Year,Identifier,Verdict,Error_Type,Notes
+C-1,C1-summary,LLM-generated,20 federated learning papers,various,2024-2025,various,"0 EXACT / 14 PARTIAL / 6 NOT_FOUND",fabricated_id+venue_wrong+year_wrong,"100% error rate; 30% fully fabricated"
+C-2,C2-01,(Google),Attention Is All You Need,,2017,1706.03762,EXACT,,
+C-2,C2-02,(NVIDIA),Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism,,2019,1909.08053,EXACT,,
+C-2,C2-03,(Microsoft),ZeRO: Memory Optimizations Toward Training Trillion Parameter Models,,2019,1910.02054,EXACT,,
+C-2,C2-04,(OpenAI),Scaling Laws for Neural Language Models,,2020,2001.08361,EXACT,,
+C-2,C2-05,(Google),Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity,,2021,2101.03961,EXACT,,
+C-2,C2-06,(OpenAI),Evaluating Large Language Models Trained on Code,,2021,2107.03374,EXACT,,
+C-2,C2-07,(Stanford),On the Opportunities and Risks of Foundation Models,,2021,2108.07258,EXACT,,
+C-2,C2-08,(HuggingFace),Multitask Prompted Training Enables Zero-Shot Task Generalization,,2021,2110.08207,EXACT,,
+C-2,C2-09,(Google),GLaM: Efficient Scaling of Language Models with Mixture-of-Experts,,2021,2112.06905,EXACT,,
+C-2,C2-10,(DeepMind),Scaling Language Models: Methods Analysis and Insights from Training Gopher,,2021,2112.11446,EXACT,,
+C-2,C2-11,(Google),Chain-of-Thought Prompting Elicits Reasoning in Large Language Models,,2022,2201.11903,EXACT,,
+C-2,C2-12,(Google),LaMDA: Language Models for Dialog Applications,,2022,2201.08239,EXACT,,
+C-2,C2-13,(Microsoft+NVIDIA),Using Deep and Megatron to Train Megatron-Turing NLG 530B,,2022,2201.11990,PARTIAL,title_truncation,"DeepSpeed truncated to Deep"
+C-2,C2-14,(OpenAI),Training language models to follow instructions with human feedback,,2022,2203.02155,EXACT,,
+C-2,C2-15,(Google),Unifying Language Learning Paradigms,,2022,2205.05131,PARTIAL,title_missing_prefix,"UL2: prefix missing"
+C-3,C3-01,"Lee J et al.",BioBERT: a pre-trained biomedical language representation model,Bioinformatics,2020,10.1093/bioinformatics/btz682,EXACT,,
+C-3,C3-02,RECOVERY Collaborative Group,Dexamethasone in Hospitalized Patients with Covid-19,NEJM,2021,10.1056/NEJMoa2021436,EXACT,,
+C-3,C3-03,"Devlin J et al. (WRONG)",ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission,arXiv,2019,arXiv:1904.05342,PARTIAL,author_wrong,"Actual authors: Huang K Altosaar J Ranganath R"
+C-3,C3-04,"Jumper J et al.",Highly accurate protein structure prediction with AlphaFold,Nature,2021,10.1038/s41586-021-03819-2,EXACT,,
+C-3,C3-05,"Nori H et al.",Capabilities of GPT-4 on Medical Competency Examinations (WRONG),arXiv,2023,arXiv:2303.13375,PARTIAL,title_wrong,"Actual: Medical Challenge Problems"
+C-3,C3-06,"Singhal K et al.",Large language models encode clinical knowledge,Nature,2023,10.1038/s41586-023-06291-2,EXACT,,
+C-3,C3-07,"Thirunavukarasu AJ et al.",Large language models in medicine,Nature Medicine,2023,10.1038/s41591-023-02448-8,EXACT,,
+C-3,C3-08,"Rajpurkar P et al.",AI in health and medicine,Nature Medicine,2022,10.1038/s41591-021-01614-0,EXACT,,
+C-3,C3-09,"Brown T et al. (WRONG)",Med-PaLM: Large Language Models for Medical Question Answering (WRONG),Nature (WRONG),2023,arXiv:2305.09617,PARTIAL,author_wrong+title_wrong+venue_wrong,"Actual: Singhal K et al.; Towards Expert-Level Medical QA with LLMs; arXiv"
+C-3,C3-10,"Esteva A et al.",Dermatologist-level classification of skin cancer,NEJM (WRONG),2017,10.1038/nature21056,PARTIAL,venue_wrong,"Actual venue: Nature"
