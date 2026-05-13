@@ -1,5 +1,7 @@
 # Research Verification System
 
+[![Live docs](https://img.shields.io/badge/docs-research--verification--system.vercel.app-black?style=flat-square)](https://research-verification-system.vercel.app)
+
 > LLM-generated paper catalogs contain **29-31% metadata errors**. Simple baselines catch 78% — but **venue drift and inferential overreach require staged verification.**
 
 A cost-aware, multi-level verification framework for auditing academic paper citations in AI-assisted research workflows. Tested on 98 papers across 5 datasets, with human gold standard validation.
